@@ -1,0 +1,21 @@
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
+    color: #111;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-before: 0.67em;
+    margin-after: 0.67em;
+    margin-start: 0;
+    margin-end: 0;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0;
+    margin-end: 0;
+    line-height: 1.5;
+}
