@@ -6,27 +6,48 @@ body {
     color: rgb(31,31,31);
 }
 
-p {
+p, blockquote {
     font-size: 1em;
+    line-height: 2em;
+    background-color: rgba(212,212,212,.3);
+    box-shadow: 3px 3px 3px rgba(31,31,31,.2);
+    text-align: justify;
+    width: 580px;
+    padding: 10px;
+    margin: 15px auto;
+}
+
+p+p {
+    text-indent: 50px;
+}
+
+#menu strong {
+    display: inline-block;
+    background-color: rgba(143,170,157,.5);
+    padding: 0px 3px;
+}
+
+.dropCap {
+    font-size: 2em;
+    line-height: 1em;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.5em;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
 }
 
 h2 {
-    font-size: 1.75em;
-}
-
-h3 {
     font-size: 1.5em;
 }
 
-strong {
-    background-color: rgba(143,170,157,.5);
+h3 {
+    font-size: 1.1em;
 }
 
-header {
+.heading {
+    text-align: center;
 }
 
 #logo {
@@ -35,39 +56,45 @@ header {
 }
 
 nav {
+    margin-bottom: 50px;
 }
 
 nav ul {
     list-style: none;
-    padding: 0px;
     text-align: center;
+    padding: 0px;
 }
 
 nav ul li {
     display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+nav a {
+    color: rgb(31,31,31);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
 }
 
 nav a:link {
-    text-decoration: none;
 }
 
 nav a:visited {
-    text-decoration: none;
 }
 
 nav a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 nav a:active {
-    text-decoration: none;
+    background-color: rgb(199,81,66);
 }
 
 figure {
     width: 600px;
-    margin: 0 auto;
+    margin: 25px auto;
 }
 
 figcaption {
@@ -75,65 +102,59 @@ figcaption {
     font-size: .75em;
 }
 
-#main {
+figcaption a {
+    color: rgb(31,31,31);
+    text-decoration: none;
 }
 
-#main h1 {
-    text-align: center;
+figcaption a:hover {
+    text-decoration: underline;
 }
 
-#main blockquote {
-    background-color: rgb(212,212,212);
-    text-align: justify;
-    width: 580px;
-    margin: 0 auto;
-    padding: 10px;
+.spacer {
+    background-color: rgb(31,31,31);
+    width: 450px;
+    height: 1px;
+    margin: 50px auto;
 }
 
-#menu {
-}
-
-#menu h2 {
-    text-align: center;
+#menu>ul {
+    border: 1px solid rgb(199,81,66);
+    border-radius: 5px;
 }
 
 #menu ul {
+    list-style-type: none;
+    width: 560px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 0px auto;
+}
+
+#menu ul li ul {
+    padding: 10px 0px;
+}
+
+#locations ol {
+    list-style-type: none;
+    text-align: center;
     width: 600px;
-    margin: 0 auto;
     padding: 0px;
-    list-style: none;
+    margin: 0px auto;
 }
 
-#locations {
-}
-
-#locations h2 {
-    text-align: center;
-}
-
-#about {
-}
-
-#about h2 {
-    text-align: center;
-}
-
-#about p {
-    background-color: rgb(212,212,212);
-    width: 580px;
-    margin: 0 auto;
+#locations ol li {
+    display: inline-block;
     padding: 10px;
-    text-align: justify;
+    margin: 10px 20px;
 }
 
 #gallery {
     margin: 50px;
 }
 
-footer {
-}
-
 #toTop {
     width: 40px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
