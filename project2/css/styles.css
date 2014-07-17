@@ -1,3 +1,15 @@
+/* begin css */
+
+/* 1. Primary Styles
+   2. Navigation
+   3. Menu Section
+   4. Locations Section
+   5. About Section */
+
+
+
+/* Primary Styles */
+
 body {
     font-family: 'Open Sans', sans-serif;
     width: 960px;
@@ -19,13 +31,6 @@ p, blockquote {
 
 p+p {
     text-indent: 50px;
-}
-
-#menu strong {
-    display: inline-block;
-    font-weight: 800;
-    background-color: rgba(143,170,157,.5);
-    padding: 0 3px;
 }
 
 .dropCap {
@@ -57,6 +62,41 @@ h3 {
     height: 214px;
     margin: 0 auto;
 }
+
+figure {
+    width: 600px;
+    margin: 25px auto;
+}
+
+figcaption {
+    color: rgb(199,81,66);
+    font-size: .75em;
+}
+
+figcaption a {
+    color: rgb(31,31,31);
+    text-decoration: none;
+}
+
+figcaption a:hover {
+    text-decoration: underline;
+}
+
+.spacer {
+    background-color: rgb(31,31,31);
+    width: 450px;
+    height: 1px;
+    margin: 50px auto;
+}
+
+#toTop {
+    width: 40px;
+    margin: 50px auto;
+}
+
+
+
+/* Navigation */
 
 nav {
     margin-bottom: 50px;
@@ -97,30 +137,15 @@ nav a:active {
     font-style: italic;
 }
 
-figure {
-    width: 600px;
-    margin: 25px auto;
-}
 
-figcaption {
-    color: rgb(199,81,66);
-    font-size: .75em;
-}
 
-figcaption a {
-    color: rgb(31,31,31);
-    text-decoration: none;
-}
+/* Menu Section */
 
-figcaption a:hover {
-    text-decoration: underline;
-}
-
-.spacer {
-    background-color: rgb(31,31,31);
-    width: 450px;
-    height: 1px;
-    margin: 50px auto;
+#menu strong {
+    display: inline-block;
+    font-weight: 800;
+    background-color: rgba(143,170,157,.5);
+    padding: 0 3px;
 }
 
 #menu>ul {
@@ -139,6 +164,10 @@ figcaption a:hover {
     padding: 10px 0;
 }
 
+
+
+/* Locations Section */
+
 #locations ol {
     list-style-type: none;
     text-align: center;
@@ -153,13 +182,12 @@ figcaption a:hover {
     margin: 10px 20px;
 }
 
+
+
+/* About Section */
+
 #gallery {
     margin: 50px;
-}
-
-#toTop {
-    width: 40px;
-    margin: 50px auto;
 }
 
 #gallery figure a:link {
@@ -182,6 +210,8 @@ figcaption a:hover {
     border: 2px solid rgba(199,81,66,1);
 }
 
-#gallery figure figcaption a {
+#gallery figure figcaption a:link {
     display: inline;
 }
+
+/* end css */
