@@ -24,7 +24,7 @@ p+p {
 #menu strong {
     display: inline-block;
     background-color: rgba(143,170,157,.5);
-    padding: 0px 3px;
+    padding: 0 3px;
 }
 
 .dropCap {
@@ -62,7 +62,7 @@ nav {
 nav ul {
     list-style: none;
     text-align: center;
-    padding: 0px;
+    padding: 0;
 }
 
 nav ul li {
@@ -126,22 +126,20 @@ figcaption a:hover {
 #menu ul {
     list-style-type: none;
     width: 560px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    margin: 0px auto;
+    padding: 0 20px 20px 20px;
+    margin: 0 auto;
 }
 
 #menu ul li ul {
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 #locations ol {
     list-style-type: none;
     text-align: center;
     width: 600px;
-    padding: 0px;
-    margin: 0px auto;
+    padding: 0;
+    margin: 0 auto;
 }
 
 #locations ol li {
