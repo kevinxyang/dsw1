@@ -1,0 +1,217 @@
+/* begin css */
+
+/* 1. Primary Styles
+   2. Navigation
+   3. Menu Section
+   4. Locations Section
+   5. About Section */
+
+
+
+/* Primary Styles */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgb(255,255,255);
+    color: rgb(31,31,31);
+}
+
+p, blockquote {
+    font-size: 1em;
+    line-height: 2em;
+    background-color: rgba(212,212,212,.3);
+    box-shadow: 3px 3px 3px rgba(31,31,31,.2);
+    text-align: justify;
+    width: 580px;
+    padding: 10px;
+    margin: 15px auto;
+}
+
+p+p {
+    text-indent: 50px;
+}
+
+.dropCap {
+    font-size: 2em;
+    line-height: 1em;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    text-shadow: 1px 1px rgba(31,31,31,.2);
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+.heading {
+    text-align: center;
+}
+
+#logo {
+    width: 150px;
+    height: 214px;
+    margin: 0 auto;
+}
+
+figure {
+    width: 600px;
+    margin: 25px auto;
+}
+
+figcaption {
+    color: rgb(199,81,66);
+    font-size: .75em;
+}
+
+figcaption a {
+    color: rgb(31,31,31);
+    text-decoration: none;
+}
+
+figcaption a:hover {
+    text-decoration: underline;
+}
+
+.spacer {
+    background-color: rgb(31,31,31);
+    width: 450px;
+    height: 1px;
+    margin: 50px auto;
+}
+
+#toTop {
+    width: 40px;
+    margin: 50px auto;
+}
+
+
+
+/* Navigation */
+
+nav {
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+nav a:link {
+    color: rgb(31,31,31);
+}
+
+nav a:visited {
+    color: rgba(31,31,31,.8);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    background-color: rgb(199,81,66);
+    font-style: italic;
+}
+
+
+
+/* Menu Section */
+
+#menu strong {
+    display: inline-block;
+    font-weight: 800;
+    background-color: rgba(143,170,157,.5);
+    padding: 0 3px;
+}
+
+#menu>ul {
+    border: 1px solid rgb(199,81,66);
+    border-radius: 5px;
+}
+
+#menu ul {
+    list-style-type: none;
+    width: 560px;
+    padding: 0 20px 20px 20px;
+    margin: 0 auto;
+}
+
+#menu ul li ul {
+    padding: 10px 0;
+}
+
+
+
+/* Locations Section */
+
+#locations ol {
+    list-style-type: none;
+    text-align: center;
+    width: 600px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#locations ol li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+
+
+/* About Section */
+
+#gallery {
+    margin: 50px;
+}
+
+#gallery figure a:link {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.7;
+    border: 2px solid rgba(199,81,66,0);
+}
+
+#gallery figure a:visited {
+    border: 2px solid rgb(31,31,31);
+}
+
+#gallery figure a:hover {
+    opacity: 1.0;
+}
+
+#gallery figure a:active {
+    border: 2px solid rgba(199,81,66,1);
+}
+
+#gallery figure figcaption a:link {
+    display: inline;
+}
+
+/* end css */
