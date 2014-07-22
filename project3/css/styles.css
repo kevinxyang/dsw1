@@ -12,9 +12,9 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
-    background-color: rgb(255,255,255);
+    background: url(../images/bg.jpg);
     color: rgb(31,31,31);
 }
 
@@ -24,9 +24,10 @@ p, blockquote {
     background-color: rgba(212,212,212,.3);
     box-shadow: 3px 3px 3px rgba(31,31,31,.2);
     text-align: justify;
-    width: 580px;
-    padding: 10px;
-    margin: 15px auto;
+    width: 40%;
+    padding: 2.5%;
+    margin: 2.5%;
+    float: left;
 }
 
 p+p {
@@ -64,8 +65,10 @@ h3 {
 }
 
 figure {
-    width: 600px;
-    margin: 25px auto;
+    width: 45%;
+    margin: 2.5% auto;
+    overflow: hidden;
+    
 }
 
 figcaption {
@@ -84,14 +87,18 @@ figcaption a:hover {
 
 .spacer {
     background-color: rgb(31,31,31);
-    width: 450px;
+    width: 40%;
     height: 1px;
-    margin: 50px auto;
+    margin: 5% auto;
 }
 
 #toTop {
     width: 40px;
     margin: 50px auto;
+}
+
+.clear {
+    clear: both;
 }
 
 
@@ -110,8 +117,8 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 nav a {
@@ -139,7 +146,24 @@ nav a:active {
 
 
 
+/* Main Section */
+
+#main {
+    width: 48%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+
 /* Menu Section */
+
+#menuContent {
+    width: 45%;
+    margin: 0 auto;
+    border: 1px solid rgb(199,81,66);
+    border-radius: 5px;
+}
 
 #menu strong {
     display: inline-block;
@@ -155,8 +179,8 @@ nav a:active {
 
 #menu ul {
     list-style-type: none;
-    width: 560px;
-    padding: 0 20px 20px 20px;
+    width: 90%;
+    padding: 0 5% 5% 5%;
     margin: 0 auto;
 }
 
@@ -171,7 +195,7 @@ nav a:active {
 #locations ol {
     list-style-type: none;
     text-align: center;
-    width: 600px;
+    width: 48%;
     padding: 0;
     margin: 0 auto;
 }
@@ -179,19 +203,25 @@ nav a:active {
 #locations ol li {
     display: inline-block;
     padding: 10px;
-    margin: 10px 20px;
+    margin: 10px 2.5%;
 }
 
 
 
 /* About Section */
 
+#aboutContent {
+    overflow: auto;
+    margin: 0 auto;
+    width: 48%;
+}
+
 #gallery {
-    margin: 50px;
+    margin-top: 50px;
 }
 
 #gallery figure a:link {
-    width: 600px;
+    width: 100%;
     display: block;
     margin: 0 auto;
     opacity: 0.7;
