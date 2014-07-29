@@ -1,0 +1,270 @@
+/* begin css */
+
+/* 1. Primary Styles
+   2. Navigation
+   3. Menu Section
+   4. Locations Section
+   5. About Section */
+
+
+
+/* Primary Styles */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    background: url(../images/bg.jpg);
+    color: rgb(31,31,31);
+}
+
+p, blockquote {
+    font-size: 1em;
+    line-height: 2em;
+    background-color: rgba(212,212,212,.3);
+    box-shadow: 3px 3px 3px rgba(31,31,31,.2);
+    text-align: justify;
+    width: 40%;
+    padding: 2.5%;
+    margin: 2.5%;
+    float: left;
+}
+
+p+p {
+    text-indent: 50px;
+}
+
+.dropCap {
+    font-size: 2em;
+    line-height: 1em;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    text-shadow: 1px 1px rgba(31,31,31,.2);
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+.heading {
+    text-align: center;
+}
+
+figure {
+    width: 45%;
+    margin: 2.5% auto;
+    overflow: hidden;
+    
+}
+
+figcaption {
+    color: rgb(199,81,66);
+    font-size: .75em;
+}
+
+figcaption a {
+    color: rgb(31,31,31);
+    text-decoration: none;
+}
+
+figcaption a:hover {
+    text-decoration: underline;
+}
+
+.spacer {
+    background-color: rgb(31,31,31);
+    width: 40%;
+    height: 1px;
+    margin: 5% auto;
+}
+
+#toTop {
+}
+
+#toTop a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/top.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+    color: rgba(255,255,255,0);
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+/* Logo */
+
+#logo {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+
+
+
+/* Navigation */
+
+nav {
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+nav a:link {
+    color: rgb(31,31,31);
+}
+
+nav a:visited {
+    color: rgba(31,31,31,.8);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    background-color: rgb(199,81,66);
+    font-style: italic;
+}
+
+
+
+/* Main Section */
+
+#main {
+    width: 48%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+
+/* Menu Section */
+
+#menuContent {
+    width: 45%;
+    margin: 0 auto;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+    border: 1px solid rgb(199,81,66);
+    border-radius: 5px;
+}
+
+#menu strong {
+    display: inline-block;
+    font-weight: 800;
+    background-color: rgba(143,170,157,.5);
+    padding: 0 3px;
+}
+
+#menu>ul {
+    border: 1px solid rgb(199,81,66);
+    border-radius: 5px;
+}
+
+#menu ul {
+    list-style-type: none;
+    width: 90%;
+    padding: 0 5% 5% 5%;
+    margin: 0 auto;
+}
+
+#menu ul li ul {
+    padding: 10px 0;
+}
+
+
+
+/* Locations Section */
+
+#locations ol {
+    list-style-type: none;
+    text-align: center;
+    width: 48%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#locations ol li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 2.5%;
+}
+
+
+
+/* About Section */
+
+#aboutContent {
+    overflow: auto;
+    margin: 0 auto;
+    width: 48%;
+}
+
+#gallery {
+    margin-top: 50px;
+}
+
+#gallery figure a:link {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.7;
+    border: 2px solid rgba(199,81,66,0);
+}
+
+#gallery figure a:visited {
+    border: 2px solid rgb(31,31,31);
+}
+
+#gallery figure a:hover {
+    opacity: 1.0;
+}
+
+#gallery figure a:active {
+    border: 2px solid rgba(199,81,66,1);
+}
+
+#gallery figure figcaption a:link {
+    display: inline;
+}
+
+/* end css */
