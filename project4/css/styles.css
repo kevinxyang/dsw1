@@ -18,7 +18,7 @@ body {
     color: rgb(31,31,31);
 }
 
-p, blockquote {
+#pullquote, p, blockquote {
     font-size: 1em;
     line-height: 2em;
     background-color: rgba(212,212,212,.3);
@@ -104,6 +104,9 @@ figcaption a:hover {
     clear: both;
 }
 
+#founder {
+    text-align: right;
+}
 
 
 /* Logo */
