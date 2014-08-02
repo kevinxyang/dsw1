@@ -293,22 +293,35 @@ td:hover, th:hover {
 }
 
 form {
-    background-color: rgba(255,255,255,.5);
     width: 600px;
     margin: 0 auto;
     font-size: .8em;
     overflow: auto;
-    text-align: left;
 }
 
-label {
+.title {
+    display: inline-block;
+    width: 68px;
+    margin-right: 25px;
+    text-align: right;
+    float: left;
 }
 
-input:focus {
+.information {
+    width: 375px;
+    float: left;
+}
+
+input:hover {
     background-color: rgb(199,81,66);
 }
 
+input:focus {
+    color: rgb(199,81,66);
+}
+
 fieldset {
+    background-color: rgba(255,255,255,.5);
     margin-bottom: 25px;
     padding: 25px;
 }
