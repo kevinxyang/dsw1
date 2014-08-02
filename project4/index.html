@@ -24,9 +24,9 @@
         </header>
         <section id="main">
             <!--begin content-->
-            <blockquote><span class="dropCap">W</span>e bring a <strong>fresh & unique</strong> approach to fast casual dining in the greater Orlando area with our farm-to-table concept. Our focus is on <strong>locally sourced</strong> ingredients to ensure that we serve only the <em>freshest</em>, most nutrient-rich flavorful meals, capture the very best seasonal tastes, and support our local farms and economy.</blockquote>
+            <blockquote class="content"><span class="dropCap">W</span>e bring a <strong>fresh & unique</strong> approach to fast casual dining in the greater Orlando area with our farm-to-table concept. Our focus is on <strong>locally sourced</strong> ingredients to ensure that we serve only the <em>freshest</em>, most nutrient-rich flavorful meals, capture the very best seasonal tastes, and support our local farms and economy.</blockquote>
             
-            <aside id="pullquote">
+            <aside class="content">
                 <q>The food we serve is <em>real</em>, <strong>fresh</strong>, and straight from Central Florida farms whenever possible. For those items we can’t source locally, we have carefully chosen farms and the best producers and purveyors of humanely raised meats.</q><br />
                 <div id="founder">- Kevin Yang</div>
             </aside>
@@ -129,9 +129,9 @@
             <div id="aboutContent">
                 <h1 class="heading">About Us</h1>
                 <!--begin content-->
-                <p><span class="dropCap">O</span>ur grass-fed beef is from Lake Kersey Farm and is made with our <em>signature</em> blend of cuts. Our burgers, free-range turkey, bison, and homemade veggie/vegan burgers are highlighted with our <strong>made-from-scratch</strong> seasonal house-made extras, sauces, and sides. You’ll love our <em>homemade</em> pickles, <em>thick-cut pecan smoked</em> bacon, and <em>caramelized</em> onion jam; just a few of the specialty items from our kitchen.</p>
+                <p class="content"><span class="dropCap">O</span>ur grass-fed beef is from Lake Kersey Farm and is made with our <em>signature</em> blend of cuts. Our burgers, free-range turkey, bison, and homemade veggie/vegan burgers are highlighted with our <strong>made-from-scratch</strong> seasonal house-made extras, sauces, and sides. You’ll love our <em>homemade</em> pickles, <em>thick-cut pecan smoked</em> bacon, and <em>caramelized</em> onion jam; just a few of the specialty items from our kitchen.</p>
                 
-                <p>Our menu is loaded with signature salads, snacks, and sides. For the “beer connoisseur,” don’t miss trying one of our seasonal taps from local Florida brewers, or choose from a selection of some of the <em>finest</em> craft beers. Don’t miss out on our house-made sweets and shakes either – the <strong>perfect</strong> cap for a hearty meal.</p>
+                <p class="content">Our menu is loaded with signature salads, snacks, and sides. For the “beer connoisseur,” don’t miss trying one of our seasonal taps from local Florida brewers, or choose from a selection of some of the <em>finest</em> craft beers. Don’t miss out on our house-made sweets and shakes either – the <strong>perfect</strong> cap for a hearty meal.</p>
             </div>
             <!--end content-->
             <div id="gallery" class="clear">
@@ -162,6 +162,40 @@
                 </figure>
             </div>
             <!--end image gallery-->
+            <!--start form-->
+            <form action="#">
+                <fieldset>
+                    <legend>Contact Information (required)</legend>
+                    <label for="first">First Name:</label>
+                    <input type="text" name="firstname" id="first" required="required" placeholder="Enter your First Name."/>
+                    <label for="last">Last Name:</label>
+                    <input type="text" name="lastname" id="last" required="required" placeholder="Enter your Last Name." />
+                    <label for="phone">Phone:</label>
+                    <input type="email" name="phone" id="phone" required="required" placeholder="Enter your Phone Number." />
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email" required="required" placeholder="Enter your Email Address." />
+                </fieldset>
+                <fieldset>
+                    <legend>Our Services</legend>
+                    <p>Tell us what you need!</p>
+                    <input id="reservations" type="radio" name="service" value="reservations" checked="checked" />
+                    <label for="reservations">Reservations</label>
+                    <input id="catering" type="radio" name="service" value="catering" />
+                    <label for="catering">Catering</label>
+                    <input id="jobs" type="radio" name="service" value="jobs" />
+                    <label for="jobs">Job Opportunities</label>
+                    <p>Briefly describe how we can help you.</p>
+                    <textarea name="comments">Enter your message here.</textarea>
+                    <p>How did you hear about us?</p>
+                    <select name="devices">
+                        <option value="google" selected="selected">Google</option>
+                        <option value="ad">Advertisement</option>
+                        <option value="friend">A friend</option>
+                    </select>
+                </fieldset>
+                <input type="submit" value="Submit" />
+            </form>
+            <!--end form-->
         </section>
         <footer>
             <div id="toTop">

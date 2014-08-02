@@ -18,7 +18,7 @@ body {
     color: rgb(31,31,31);
 }
 
-#pullquote, p, blockquote {
+.content {
     font-size: 1em;
     line-height: 2em;
     background-color: rgba(212,212,212,.3);
@@ -291,5 +291,32 @@ td:hover, th:hover {
 #gallery figure figcaption a:link {
     display: inline;
 }
+
+form {
+    background-color: rgba(255,255,255,.5);
+    width: 600px;
+    margin: 0 auto;
+    font-size: .8em;
+    overflow: auto;
+    text-align: left;
+}
+
+label {
+}
+
+input:focus {
+    background-color: rgb(199,81,66);
+}
+
+fieldset {
+    margin-bottom: 25px;
+    padding: 25px;
+}
+
+legend {
+    font-size: 1.5em;
+    font-family: 'Roboto Slab', serif;
+}
+
 
 /* end css */
